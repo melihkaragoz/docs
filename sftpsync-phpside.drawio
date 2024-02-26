@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T11:27:48.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="DdGsCHoyUGPgIKQ1iLG8" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T11:29:46.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="gMkEBNOKMOhmy5NRTT9O" version="23.1.1" type="github">
   <diagram name="Sayfa -1" id="lxrp0j3HNtBndT4-ZyAu">
-    <mxGraphModel dx="848" dy="1654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2906" dy="2832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,6 +63,14 @@
         <mxCell id="jzBlY938i3cT21ndofOo-28" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzBlY938i3cT21ndofOo-27">
           <mxGeometry x="0.0632" y="1" relative="1" as="geometry">
             <mxPoint x="-3" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-18" target="jzBlY938i3cT21ndofOo-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-71" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzBlY938i3cT21ndofOo-70">
+          <mxGeometry x="-0.008" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-18" value="end of the loop?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;rounded=1;strokeWidth=2;spacing=14;" vertex="1" parent="1">
@@ -196,7 +204,7 @@
         <mxCell id="jzBlY938i3cT21ndofOo-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-64" target="jzBlY938i3cT21ndofOo-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jzBlY938i3cT21ndofOo-64" value="Add file path and modified date to modified.json file" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=16;" vertex="1" parent="1">
+        <mxCell id="jzBlY938i3cT21ndofOo-64" value="Add file path and modified date to modified array." style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=16;" vertex="1" parent="1">
           <mxGeometry x="660" y="1117.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-66" target="jzBlY938i3cT21ndofOo-52">
@@ -207,8 +215,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jzBlY938i3cT21ndofOo-66" value="Add file path and modified date to mdates.json file" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=16;" vertex="1" parent="1">
+        <mxCell id="jzBlY938i3cT21ndofOo-66" value="Add file path and modified date to mdates array." style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=16;" vertex="1" parent="1">
           <mxGeometry x="827" y="1117.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-69" target="jzBlY938i3cT21ndofOo-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-69" value="Write modified array to modified.json" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="194" y="537.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-72" target="jzBlY938i3cT21ndofOo-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-72" value="Write modified array to mdates.json" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="537.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-75" value="END" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;rounded=1;strokeWidth=2;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="670" width="80" height="77.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
