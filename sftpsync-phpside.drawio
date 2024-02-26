@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T11:25:04.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_JJ9gACfSO-tRqSHlXSR" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T11:27:28.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ccXUlq3pBvUfrqm-b614" version="23.1.1" type="github">
   <diagram name="Sayfa -1" id="lxrp0j3HNtBndT4-ZyAu">
-    <mxGraphModel dx="726" dy="1585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2543" dy="2624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,6 +159,14 @@
             <mxPoint x="-6" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-50" target="jzBlY938i3cT21ndofOo-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-63" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzBlY938i3cT21ndofOo-62">
+          <mxGeometry x="-0.1556" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-50" value="Check&amp;nbsp; local modified date and got from file are equal?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;rounded=1;strokeWidth=2;spacing=16;" vertex="1" parent="1">
           <mxGeometry x="505" y="910" width="110" height="105" as="geometry" />
         </mxCell>
@@ -178,6 +186,29 @@
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-57" value="Print &quot;$file is same&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;rounded=1;strokeWidth=2;spacing=16;" vertex="1" parent="1">
           <mxGeometry x="707" y="932.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-61" target="jzBlY938i3cT21ndofOo-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-61" value="Print &quot;$file is modified&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;rounded=1;strokeWidth=2;spacing=16;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1117.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-64" target="jzBlY938i3cT21ndofOo-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-64" value="Add file path and modified date to modified.json file" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1117.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-66" target="jzBlY938i3cT21ndofOo-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="887" y="500" />
+              <mxPoint x="565" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBlY938i3cT21ndofOo-66" value="Add file path and modified date to mdates.json file" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=16;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1117.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
