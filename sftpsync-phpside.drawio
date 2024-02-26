@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T11:29:46.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="gMkEBNOKMOhmy5NRTT9O" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T11:30:01.783Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="swtciEKYFCPfwnyhvyaT" version="23.1.1" type="github">
   <diagram name="Sayfa -1" id="lxrp0j3HNtBndT4-ZyAu">
-    <mxGraphModel dx="2906" dy="2832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5085" dy="4079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="379" y="-120" width="70" height="60" as="geometry" />
+          <mxGeometry x="719" y="-900" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-6" target="jzBlY938i3cT21ndofOo-13">
           <mxGeometry relative="1" as="geometry" />
@@ -20,10 +20,10 @@
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-6" target="jzBlY938i3cT21ndofOo-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="314" y="270" as="targetPoint" />
+            <mxPoint x="654" y="-510" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="320" y="270" />
-              <mxPoint x="320" y="453" />
+              <mxPoint x="660" y="-510" />
+              <mxPoint x="660" y="-327" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -33,31 +33,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-6" value="is specified file is a dir?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="374" y="230" width="80" height="80" as="geometry" />
+          <mxGeometry x="714" y="-550" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-8" target="jzBlY938i3cT21ndofOo-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="414" y="230" as="targetPoint" />
+            <mxPoint x="754" y="-550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-8" value="Go to start directory" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="354" y="170" width="120" height="30" as="geometry" />
+          <mxGeometry x="694" y="-610" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-13" target="jzBlY938i3cT21ndofOo-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-13" value="Enter this directory" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="354" y="360" width="120" height="30" as="geometry" />
+          <mxGeometry x="694" y="-420" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-16" target="jzBlY938i3cT21ndofOo-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-16" value="List all files in current directory" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="354" y="435" width="120" height="35" as="geometry" />
+          <mxGeometry x="694" y="-345" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-18" target="jzBlY938i3cT21ndofOo-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="514" y="567.5" as="targetPoint" />
+            <mxPoint x="854" y="-212.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-28" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzBlY938i3cT21ndofOo-27">
@@ -74,12 +74,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-18" value="end of the loop?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;rounded=1;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="374" y="527.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="714" y="-252.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-29" target="jzBlY938i3cT21ndofOo-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="700" y="375" />
+              <mxPoint x="1040" y="-405" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -90,10 +90,10 @@
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-29" target="jzBlY938i3cT21ndofOo-44">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="697.5" as="targetPoint" />
+            <mxPoint x="900" y="-82.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="700" y="630" />
-              <mxPoint x="560" y="630" />
+              <mxPoint x="1040" y="-150" />
+              <mxPoint x="900" y="-150" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -103,26 +103,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-29" value="is the file&amp;nbsp; a directory?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;rounded=1;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="660" y="527.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="1000" y="-252.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-35" target="jzBlY938i3cT21ndofOo-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="414" y="50" as="targetPoint" />
+            <mxPoint x="754" y="-730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-35" value="Get sftpsync-mdates.json file as array and add it env array" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="336" y="-20" width="156" height="60" as="geometry" />
+          <mxGeometry x="676" y="-800" width="156" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-37" target="jzBlY938i3cT21ndofOo-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-37" value="Get sftpsycn-modified.json file as array and add it env array" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="336" y="70" width="156" height="60" as="geometry" />
+          <mxGeometry x="676" y="-710" width="156" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jzBlY938i3cT21ndofOo-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="519" y="760" as="sourcePoint" />
-            <mxPoint x="459" y="760" as="targetPoint" />
+            <mxPoint x="859" y="-20" as="sourcePoint" />
+            <mxPoint x="799" y="-20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-43" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzBlY938i3cT21ndofOo-42">
@@ -139,25 +139,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-40" value="is file in the mdates.json?" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;rounded=1;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="520" y="720" width="80" height="80" as="geometry" />
+          <mxGeometry x="860" y="-60" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-41" target="jzBlY938i3cT21ndofOo-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-41" value="Add modified date to created array." style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="354" y="747.5" width="120" height="25" as="geometry" />
+          <mxGeometry x="694" y="-32.5" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-44" target="jzBlY938i3cT21ndofOo-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-44" value="Create an array and add file path and modified date from local to in it." style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="500" y="650" width="120" height="40" as="geometry" />
+          <mxGeometry x="840" y="-130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-46" target="jzBlY938i3cT21ndofOo-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-46" value="Return the created array." style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="500" y="840" width="120" height="30" as="geometry" />
+          <mxGeometry x="840" y="60" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-50" target="jzBlY938i3cT21ndofOo-57">
           <mxGeometry relative="1" as="geometry" />
@@ -176,62 +176,62 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-50" value="Check&amp;nbsp; local modified date and got from file are equal?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;rounded=1;strokeWidth=2;spacing=16;" vertex="1" parent="1">
-          <mxGeometry x="505" y="910" width="110" height="105" as="geometry" />
+          <mxGeometry x="845" y="130" width="110" height="105" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-52" target="jzBlY938i3cT21ndofOo-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-52" value="Get next file" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="505" y="555" width="120" height="25" as="geometry" />
+          <mxGeometry x="845" y="-225" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-57" target="jzBlY938i3cT21ndofOo-52">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="767" y="500" />
-              <mxPoint x="565" y="500" />
+              <mxPoint x="1107" y="-280" />
+              <mxPoint x="905" y="-280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-57" value="Print &quot;$file is same&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;rounded=1;strokeWidth=2;spacing=16;" vertex="1" parent="1">
-          <mxGeometry x="707" y="932.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1047" y="152.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-61" target="jzBlY938i3cT21ndofOo-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-61" value="Print &quot;$file is modified&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;rounded=1;strokeWidth=2;spacing=16;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1117.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="337.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-64" target="jzBlY938i3cT21ndofOo-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-64" value="Add file path and modified date to modified array." style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=16;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1117.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="337.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-66" target="jzBlY938i3cT21ndofOo-52">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="887" y="500" />
-              <mxPoint x="565" y="500" />
+              <mxPoint x="1227" y="-280" />
+              <mxPoint x="905" y="-280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-66" value="Add file path and modified date to mdates array." style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=16;" vertex="1" parent="1">
-          <mxGeometry x="827" y="1117.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1167" y="337.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-69" target="jzBlY938i3cT21ndofOo-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-69" value="Write modified array to modified.json" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="194" y="537.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="534" y="-242.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzBlY938i3cT21ndofOo-72" target="jzBlY938i3cT21ndofOo-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-72" value="Write modified array to mdates.json" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="537.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="-242.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzBlY938i3cT21ndofOo-75" value="END" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;rounded=1;strokeWidth=2;spacing=14;" vertex="1" parent="1">
-          <mxGeometry x="60" y="670" width="80" height="77.5" as="geometry" />
+          <mxGeometry x="400" y="-110" width="80" height="77.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
